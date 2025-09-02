@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Rating App',
-  description: 'Application to rate products'
+  title: 'Blog App',
+  description: 'Application to blog posts'
 };
 
 export default function RootLayout({
