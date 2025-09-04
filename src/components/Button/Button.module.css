@@ -1,5 +1,7 @@
 .button {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   box-sizing: border-box;
   padding: 10px;
   cursor: pointer;
@@ -30,4 +32,22 @@
 .ghost:hover {
   background-color: var(--primary);
   color: var(--background);
+}
+
+.arrow {
+  display: inline-block;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+.arrow.down {
+  transform: rotate(90deg);
+}
+
+.primary .arrow {
+  fill: var(--background);
+}
+
+.ghost:hover .arrow {
+  fill: var(--background);
 }

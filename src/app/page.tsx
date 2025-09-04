@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import styles from './page.module.css';
-import { HTag, Button } from '@/components';
+import { HTag, Button, ButtonAppearance, ButtonArrow } from '@/components';
 
 export default function Home() {
   return (
@@ -9,8 +9,10 @@ export default function Home() {
         <HTag Tag='h1'>Title</HTag>
         <HTag Tag='h2'>Title</HTag>
         <HTag Tag='h3'>Title</HTag>
-        <Button appearance='primary'>Button</Button>
-        <Button appearance='ghost'>Button</Button>
+        <Button appearance={ButtonAppearance.PRIMARY}>Button</Button>
+        <Button appearance={ButtonAppearance.GHOST} arrow={ButtonArrow.RIGHT}>
+          Button
+        </Button>
       </main>
       <footer className={styles.footer}>
         <a
