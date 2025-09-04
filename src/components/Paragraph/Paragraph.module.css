@@ -1,0 +1,17 @@
+.paragraph {
+  font-family: var(--font-family);
+  font-weight: 400;
+  color: var(--color-text);
+}
+
+.paragraph.s {
+  font-size: 14px;
+}
+
+.paragraph.m {
+  font-size: 16px;
+}
+
+.paragraph.l {
+  font-size: 18px;
+}
