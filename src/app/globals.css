@@ -3,9 +3,14 @@
   --foreground: #171717;
   --font-family: 'Noto Sans Mono', sans-serif;
   --color-text: #3b434e;
+  --color-white: #fff;
   --primary: #7653fc;
   --primary-hover: #6344fa;
   --gray-light: #ebebeb;
+  --gray-dark: #6f6f6f;
+  --red: #de0000;
+  --color-green: #1dc37e;
+  --green-light: #c8f8e4;
 }
 
 /* @media (prefers-color-scheme: dark) {
